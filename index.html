@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-dvh flex justify-center items-center">
+    <div class="main w-[700px] px-10 py-5 bg-slate-300 rounded-lg shadow-lg text-center">
+        <h1 class="font-bold text-4xl text-red-900">Rock, Paper and Scissors</h1>
+        <p class="font-bold my-4">Choise your option</p>
+        <div class="btn flex gap-4 mb-7 justify-center">
+            <button data-buttonName="Rock" class="button bg-black text-white px-7 py-1 font-bold rounded-md">Rock</button>
+
+            <button data-buttonName="Paper" class="button bg-black text-white px-7 py-1 font-bold rounded-md">Paper</button>
+
+            <button data-buttonName="Scissors" class="button bg-black text-white px-7 py-1 font-bold rounded-md">Scissors</button>
+        </div>
+        <form action="">
+            <button class="button bg-red-900 text-white px-7 py-1 font-bold rounded-md mb-5" type="submit">Reset</button>
+        </form>
+        <p class="result">Click any button to start the game</p>
+        <p class=" score mt-2">Score: You <b><span class="text-red-600">0</span></b> - <b><span class="text-red-600">0</span></b> Computer</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
